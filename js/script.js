@@ -3,8 +3,8 @@ var i = 0, p = 0, n = 0, answer = 1, true_answer, power;
 function powerNumber(n, p) {
     'use strict';
     while (i < p) {
-        i = i + 1;
-        answer = answer * n;
+        ++i;
+        answer *= n;
     }
     return answer;
 }
